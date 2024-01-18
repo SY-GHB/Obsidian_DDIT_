@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "97ac02eb48163926",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7637f837dd2d565",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18888843bc25191b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TEST ver2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9aa8d26469495dc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "50396714b1e52ba3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3709773d64c5a997",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "6a87bbabe0d584f7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "xml",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "124bbd72913b4a4d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277.5
+  },
+  "right": {
+    "id": "afd50f1ee9a117f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "703b117dbf2af0f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0df332002a6a4cf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TEST ver2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "56784807a15cf3b3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TEST ver2.md"
+              }
+            }
+          },
+          {
+            "id": "180801bc03d144e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TEST ver2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "487bbcb6cea7d602",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:그래프 뷰 열기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "18888843bc25191b",
+  "lastOpenFiles": [
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-18 mybatis(1).md",
+    "lprod-mapper.xml",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-11 JDBC(1).md",
+    "1. 대덕인재개발원/3. 웹 프로그래밍/24-01-18 미완-AJAX(3).md",
+    "1. 대덕인재개발원/3. 웹 프로그래밍/24-01-17 미완-AJAX(2).md",
+    "1. 대덕인재개발원/3. 웹 프로그래밍/24-01-16 메소드(2), AJAX(1).md",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-15 JDBC(3).md",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/23-12-21 Set(2), Map(1).md",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-17 MVC(2).md",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-16 javaDoc, MVC(1).md",
+    "media/Pasted image 20240118200310.png",
+    "무제 파일.canvas",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-12 JDBC(2).md",
+    "TEST ver2.md",
+    "media/Pasted image 20240118191331.png",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/숙제-고급자바 조별과제.md",
+    "1. 대덕인재개발원/3. 웹 프로그래밍/24-01-15 메소드(1).md",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/숙제-싱글톤 패턴과 MVC 패턴.md",
+    "0. MAIN/공지사항.md",
+    "0. MAIN/윈도우 x86 x64 차이.md",
+    "0. MAIN/github 사용하기.md",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-05 미완-직렬화.md",
+    "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-07 데이터 정의어(2), 데이터 조작어.md",
+    "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-02 테이블.md",
+    "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-23 서브쿼리(1) INSERT문 활용.md",
+    "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-20 순위함수, 표현식.md",
+    "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-03 오라클 기본타입(1).md",
+    "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-10 기타 연산자(ALL, LIKE, BETWEEN), 문자열 함수(1).md",
+    "media/file 1/DBUtill.java",
+    "media/file 1/float레이아웃.html",
+    "media/file 1/UdpServer.java",
+    "media/file 1/MemberVO.java",
+    "media/file 1/UdpClient.java",
+    "media/file 1/SellLotto.java",
+    "media/file 1/json-20231013.jar",
+    "media/file 1/JdbcTest07.java",
+    "media/file 1/TcpFileClient.java",
+    "0. MAIN/SOLID 원칙.md",
+    "media/Pasted image 20240117112929.png",
+    "media/Pasted image 20240117112924.png",
+    "media/Pasted image 20240117112917.png",
+    "media/Pasted image 20240117112909.png",
+    "media/Pasted image 20240117112903.png",
+    "media/Pasted image 20240117112858.png",
+    "Pasted image 20240117112929.png",
+    "Pasted image 20240117112924.png"
+  ]
+}

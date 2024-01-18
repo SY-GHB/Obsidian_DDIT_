@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 이 문서는 MyBatis에서 처리할 SQL문을 작성하는 문서입니다. -->
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+		   
+<!-- mapper태그의 namespace속성값은 이 곳에 작성된 SQL문을 호출해서 사용할 때 사용되는 이름이다. -->
+<mapper namespace="lprod">
+	<!-- 
+		이 부분에는 처리할 SQL문에 맞는 태그를 이용한 SQL문을 작성한다.
+		
+		** 사용할 수 있는 태그들
+		<select> SELECT구문 </select>
+		<update> UPDATE구문 </update>
+		<delete> DELETE구문 </delete>
+		<insert> INSERT구문 </insert>
+		...
+		
+	 -->
+</mapper>
