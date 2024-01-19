@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TEST ver2.md",
+                "file": "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-18 mybatis(1).md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 277.5,
+    "collapsed": true
   },
   "right": {
     "id": "afd50f1ee9a117f7",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TEST ver2.md",
+                "file": "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-18 mybatis(1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEST ver2.md"
+                "file": "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-18 mybatis(1).md"
               }
             }
           },
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TEST ver2.md",
+                "file": "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-18 mybatis(1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,22 +147,24 @@
   },
   "active": "18888843bc25191b",
   "lastOpenFiles": [
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/숙제-고급자바 조별과제.md",
+    "1. 대덕인재개발원/1. JAVA/23-11-01 자바수업 시작.md",
+    "TEST ver2.md",
+    "24-01-19.md",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-16 javaDoc, MVC(1).md",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-17 MVC(2).md",
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-18 mybatis(1).md",
+    "1. 대덕인재개발원/3. 웹 프로그래밍/24-01-16 메소드(2), AJAX(1).md",
     "lprod-mapper.xml",
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-11 JDBC(1).md",
     "1. 대덕인재개발원/3. 웹 프로그래밍/24-01-18 미완-AJAX(3).md",
     "1. 대덕인재개발원/3. 웹 프로그래밍/24-01-17 미완-AJAX(2).md",
-    "1. 대덕인재개발원/3. 웹 프로그래밍/24-01-16 메소드(2), AJAX(1).md",
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-15 JDBC(3).md",
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/23-12-21 Set(2), Map(1).md",
-    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-17 MVC(2).md",
-    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-16 javaDoc, MVC(1).md",
     "media/Pasted image 20240118200310.png",
     "무제 파일.canvas",
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-12 JDBC(2).md",
-    "TEST ver2.md",
     "media/Pasted image 20240118191331.png",
-    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/숙제-고급자바 조별과제.md",
     "1. 대덕인재개발원/3. 웹 프로그래밍/24-01-15 메소드(1).md",
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/숙제-싱글톤 패턴과 MVC 패턴.md",
     "0. MAIN/공지사항.md",
@@ -183,7 +186,6 @@
     "media/file 1/json-20231013.jar",
     "media/file 1/JdbcTest07.java",
     "media/file 1/TcpFileClient.java",
-    "0. MAIN/SOLID 원칙.md",
     "media/Pasted image 20240117112929.png",
     "media/Pasted image 20240117112924.png",
     "media/Pasted image 20240117112917.png",
