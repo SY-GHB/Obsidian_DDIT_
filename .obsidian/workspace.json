@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xml",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "right": {
     "id": "afd50f1ee9a117f7",
@@ -147,13 +146,21 @@
   },
   "active": "18888843bc25191b",
   "lastOpenFiles": [
+    "24-01-20.md",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-18 mybatis(1).md",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-19 mybatis(2).md",
+    "Obsidian_DDIT/media/위기협약 1.png",
+    "미완- 초기화 블럭.md",
+    "Obsidian_DDIT/media/위기협약.png",
+    "초기화 블럭.md",
+    "TEST ver3.md",
+    "Obsidian_DDIT/media/file/lprod-mapper.xml",
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/숙제-고급자바 조별과제.md",
+    "테스트를또해요.md",
+    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-12 JDBC(2).md",
     "1. 대덕인재개발원/1. JAVA/23-11-01 자바수업 시작.md",
-    "TEST ver2.md",
-    "24-01-19.md",
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-16 javaDoc, MVC(1).md",
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-17 MVC(2).md",
-    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-18 mybatis(1).md",
     "1. 대덕인재개발원/3. 웹 프로그래밍/24-01-16 메소드(2), AJAX(1).md",
     "lprod-mapper.xml",
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-11 JDBC(1).md",
@@ -163,7 +170,6 @@
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/23-12-21 Set(2), Map(1).md",
     "media/Pasted image 20240118200310.png",
     "무제 파일.canvas",
-    "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-12 JDBC(2).md",
     "media/Pasted image 20240118191331.png",
     "1. 대덕인재개발원/3. 웹 프로그래밍/24-01-15 메소드(1).md",
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/숙제-싱글톤 패턴과 MVC 패턴.md",
@@ -173,10 +179,6 @@
     "1. 대덕인재개발원/4. JAVA기반 애플리케이션/24-01-05 미완-직렬화.md",
     "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-07 데이터 정의어(2), 데이터 조작어.md",
     "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-02 테이블.md",
-    "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-23 서브쿼리(1) INSERT문 활용.md",
-    "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-20 순위함수, 표현식.md",
-    "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-03 오라클 기본타입(1).md",
-    "1. 대덕인재개발원/2. DBMS & 오라클 SQL/23-11-10 기타 연산자(ALL, LIKE, BETWEEN), 문자열 함수(1).md",
     "media/file 1/DBUtill.java",
     "media/file 1/float레이아웃.html",
     "media/file 1/UdpServer.java",
@@ -185,14 +187,11 @@
     "media/file 1/SellLotto.java",
     "media/file 1/json-20231013.jar",
     "media/file 1/JdbcTest07.java",
-    "media/file 1/TcpFileClient.java",
     "media/Pasted image 20240117112929.png",
     "media/Pasted image 20240117112924.png",
     "media/Pasted image 20240117112917.png",
     "media/Pasted image 20240117112909.png",
     "media/Pasted image 20240117112903.png",
-    "media/Pasted image 20240117112858.png",
-    "Pasted image 20240117112929.png",
-    "Pasted image 20240117112924.png"
+    "media/Pasted image 20240117112858.png"
   ]
 }
