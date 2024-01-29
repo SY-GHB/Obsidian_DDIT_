@@ -137,7 +137,7 @@ print()와 println()의 차이는 줄바꿈을 하느냐 하지 않느냐의 차
 이 때, HttpServletRequest객체와 HttpServletResponse객체를 공유하기때문에 파라미터를 넘길 수 있다.
 URL주소는 처음 요청할 때의 주소가 바뀌지 않으며, 서버 내부에서만 접근이 가능하다.
 
-##### 데이터를 공유하는 방법
+##### foward 방식으로 이동하기
 이동되는 페이지로 데이터를 넘기려면
 Request객체의 setAttribute()메서드를 이용하여 데이터를 저장하여 보내고,
 받는 쪽에서는 getAttribute()메서드를 이용하여 데이터를 읽어온다.
@@ -165,3 +165,48 @@ request.getRequestDispatcher()메서드에 이동할 서블릿이나 JSP를 지�
 forward방식으로 온 데이터를 서블릿에서 받아보려면 상기한대로 getAttribute()메소드를 통해 받는다.
 
 이 때, 넘어오는 데이터의 자료형은 Object이므로 꼭 형변환이 필요하다.
+
+#### 2) redirect 방식
+##### 작동방식
+응답시 브라우저에게 이동할 URL을 전송하여 브라우저가 해당 URL로 이동하는 방식이다. 이동할 때는 GET방식으로 요청하기 때문에 URL의 길이에 제한이 있다.
+
+redirect는 처음 요청할 때 만들어진 Request객체와 Response객체를 이동한 문서에서 유지하지 못한다. 브라우저에서 새롭게 요청하기 때문에 다른 Request 객체와 Response 객체로 전환된다.
+
+##### redirect 방식으로 이동하기
+Response객체의 sendRedirect()메서드를 이용한다.
+형식은 이러하다.
+```
+Response객체.sendRediredt("이동할 문서의 전체 URL주소");
+```
+
+만약, 이동할 주소에 한글이 있을 경우에는  URLEncoder을 이용하여 인코딩 방식 지정 후 저장한다.
+
+잠깐!
+만약에 경로에 프로젝트명을 그대로 적어줘서 사용했는데, 프로젝트명을 변경하거나 프로젝트의 위치를 바꾸었다면 수정할 게 많아질 테다. 그런 상황을 방지하려면,
+
+``"webTest/redirectTarget.do"``를 ``request.getContextPath()+"/redirectTarget.do"``로 적어두면 된다. 변경되거나 바뀐 프로젝트명을 찾아줄것이다.
+
+redirect방식은 GET방식으로 데이터를 전송하지만, 
+```
+response.sendRedirect(request.getContextPath()+"/redirectTarget.do");
+```
+이런 방식으로 보낸다면 URL에 쿼리스트링이 생기지 않는다.
+
+처음 보냈던 request와 response객체는 redirect 후 소멸되므로, 만약 첫 request 에서 보냈던 어떤 값들이 두번째 문서에서 필요하게 된다면 이런 식으로 만들 수 있다.
+
+
+```
+protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	//request객체에서 값을 가져온다.
+	String userName = request.getParameter("userName");
+	//주고싶은 또 다른값이 있다면 설정해준다
+	request.setAttribute("tel", "010-9999-9999");
+	
+	//가져온 값을 이용해 직접 쿼리스트링을 만들어준다.
+	response.sendRedirect(request.getContextPath()+"
+	/redirectTarget.do");
+	response.sendRedirect(request.getContextPath()
+			+"/redirectTarget.do?userName="+userName
+			+"&tel=010-9999-999");
+	}
+```
